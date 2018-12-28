@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB", "DB\DB.sqlproj", "{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FT.Host", "ServiceHost\Services.FT.Host.csproj", "{D2055659-A58A-44D8-A784-491F6307039E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Core", "Services.Core\Services.Core.csproj", "{05AE290F-2247-4780-80C3-A5FBE45C621B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FT.Entities", "Services.Entities\Services.FT.Entities.csproj", "{3D2A8A40-6539-4111-A173-43A6FF25D089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FT.Components", "Servics.Components\Services.FT.Components.csproj", "{3CE35C59-AB6D-48D6-ABA6-0BAA49BDA4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.FT.DataAccess", "Services.FT.DataAccess\Services.FT.DataAccess.csproj", "{BBA697AB-44AA-4F02-A990-C8739BD2DAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112A288D-B6CC-4FFF-BE9A-FCBD8877D2B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D2055659-A58A-44D8-A784-491F6307039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2055659-A58A-44D8-A784-491F6307039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2055659-A58A-44D8-A784-491F6307039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2055659-A58A-44D8-A784-491F6307039E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AE290F-2247-4780-80C3-A5FBE45C621B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AE290F-2247-4780-80C3-A5FBE45C621B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AE290F-2247-4780-80C3-A5FBE45C621B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AE290F-2247-4780-80C3-A5FBE45C621B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2A8A40-6539-4111-A173-43A6FF25D089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2A8A40-6539-4111-A173-43A6FF25D089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2A8A40-6539-4111-A173-43A6FF25D089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2A8A40-6539-4111-A173-43A6FF25D089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE35C59-AB6D-48D6-ABA6-0BAA49BDA4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE35C59-AB6D-48D6-ABA6-0BAA49BDA4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE35C59-AB6D-48D6-ABA6-0BAA49BDA4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE35C59-AB6D-48D6-ABA6-0BAA49BDA4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA697AB-44AA-4F02-A990-C8739BD2DAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA697AB-44AA-4F02-A990-C8739BD2DAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA697AB-44AA-4F02-A990-C8739BD2DAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA697AB-44AA-4F02-A990-C8739BD2DAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
